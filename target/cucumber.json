@@ -1,0 +1,295 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-14T06:43:52.899Z",
+        "before": [
+          {
+            "result": {
+              "duration": 21335741300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.seleniumcucumber.stepdef.DataDrivenTest.openBrowser()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Test Case to verify Calculator functionality with multiple data",
+        "description": "",
+        "id": "calculator-functionality;test-case-to-verify-calculator-functionality-with-multiple-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1667853300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.seleniumcucumber.stepdef.DataDrivenTest.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7003888900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open chrome and navigate to calculate page",
+            "match": {
+              "location": "com.seleniumcucumber.stepdef.DataDrivenTest.open_chrome_and_navigate_to_calculate_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4496411400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter two numbers \"4\" and \"3\" with operator \"+\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"+\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.seleniumcucumber.stepdef.DataDrivenTest.enter_two_numbers_and_with_operator(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38813300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate output \"7\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"7\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.seleniumcucumber.stepdef.DataDrivenTest.validate_output(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Data_Driven"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-14T06:44:27.561Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4034424000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.seleniumcucumber.stepdef.DataDrivenTest.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Test Case to verify Calculator functionality with multiple data",
+        "description": "",
+        "id": "calculator-functionality;test-case-to-verify-calculator-functionality-with-multiple-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1225231200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.seleniumcucumber.stepdef.DataDrivenTest.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2799933800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open chrome and navigate to calculate page",
+            "match": {
+              "location": "com.seleniumcucumber.stepdef.DataDrivenTest.open_chrome_and_navigate_to_calculate_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4513218500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter two numbers \"8\" and \"2\" with operator \"-\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"8\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"-\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.seleniumcucumber.stepdef.DataDrivenTest.enter_two_numbers_and_with_operator(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40890000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate output \"6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.seleniumcucumber.stepdef.DataDrivenTest.validate_output(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Data_Driven"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-14T06:44:40.190Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3818788900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.seleniumcucumber.stepdef.DataDrivenTest.openBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Test Case to verify Calculator functionality with multiple data",
+        "description": "",
+        "id": "calculator-functionality;test-case-to-verify-calculator-functionality-with-multiple-data;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1187907900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.seleniumcucumber.stepdef.DataDrivenTest.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1149589400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open chrome and navigate to calculate page",
+            "match": {
+              "location": "com.seleniumcucumber.stepdef.DataDrivenTest.open_chrome_and_navigate_to_calculate_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4558553300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter two numbers \"3\" and \"4\" with operator \"*\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 18
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"*\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.seleniumcucumber.stepdef.DataDrivenTest.enter_two_numbers_and_with_operator(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38897700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate output \"12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.seleniumcucumber.stepdef.DataDrivenTest.validate_output(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Data_Driven"
+          }
+        ]
+      }
+    ],
+    "name": "Calculator Functionality",
+    "description": "",
+    "id": "calculator-functionality",
+    "keyword": "Feature",
+    "uri": "file:Features/DataDrivenTest.feature",
+    "tags": []
+  }
+]
